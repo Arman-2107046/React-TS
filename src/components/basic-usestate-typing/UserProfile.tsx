@@ -18,7 +18,6 @@ const UserProfile = () => {
   }
 
   function updateAge(newAge: number) {
-    
     setProfile((profile) => ({ ...profile, age: newAge }));
   }
 
@@ -39,7 +38,7 @@ const UserProfile = () => {
       <input
         type="number"
         placeholder="Age"
-        value={profile.age>0? profile.age:""}
+        value={profile.age > 0 ? profile.age : ""}
         onChange={(e) => updateAge(Number(e.target.value))}
       />
 
