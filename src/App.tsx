@@ -1,5 +1,6 @@
 
-import UpdatedContactForm from './components/Form+Useref/UpdatedContactForm'
+import EventHandling from './components/Event Handling/EventHandling'
+
 
 const App = () => {
   return (
@@ -12,7 +13,9 @@ const App = () => {
     {/* <NewContactForm/>
      */}
 
-     <UpdatedContactForm/>
+     {/* <UpdatedContactForm/> */}
+
+     <EventHandling/>
     </div>
   )
 }
