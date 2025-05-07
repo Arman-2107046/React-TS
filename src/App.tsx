@@ -1,12 +1,9 @@
-
-import CounterRed from "./components/UseReducer/CounterRed";
+import MyComponent from "./components/UseEffect/MyComponent";
 
 const App = () => {
   return (
     <div>
-
-      <CounterRed/>
-
+      <MyComponent />
     </div>
   );
 };
