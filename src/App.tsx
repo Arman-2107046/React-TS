@@ -1,13 +1,12 @@
-import React from "react";
-import MyProvider from "./components/ContextApi/MyContext";
-import NewCounter from "./components/ContextApi/NewCounter";
+
+import CounterRed from "./components/UseReducer/CounterRed";
 
 const App = () => {
   return (
     <div>
-      <MyProvider>
-        <NewCounter />
-      </MyProvider>
+
+      <CounterRed/>
+
     </div>
   );
 };

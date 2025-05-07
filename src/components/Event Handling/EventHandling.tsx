@@ -1,30 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const EventHandling = () => {
-  
-    function handleClick(e:React.MouseEvent<HTMLButtonElement>)
-    {
-        console.log("Button Clicked", e.currentTarget);
+  function handleClick(e: React.MouseEvent<HTMLButtonElement>) {
+    console.log("Button Clicked", e.currentTarget);
+  }
 
-    }
+  function handleMouseEnter(e: React.MouseEvent<HTMLDivElement>) {
+    console.log("Mouse Entrered", e.currentTarget);
+  }
 
-    function handleMouseEnter(e:React.MouseEvent<HTMLDivElement>)
-    {
-        console.log("Mouse Entered", e.currentTarget);
-    }
-  
-  
-    return (
+  return (
     <div onMouseEnter={handleMouseEnter}>
-      <h2>Event Handling Example</h2>
-
+      <h2>Click The Button</h2>
       <button onClick={handleClick}>Click Me</button>
     </div>
-  )
-}
+  );
+};
 
-export default EventHandling
-
-
-
-
+export default EventHandling;
