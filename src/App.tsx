@@ -1,10 +1,10 @@
 
-import UserList from "./components/UseEffect/UserList";
+import UserListHuXn from "./components/UseEffect/UserListHuXn";
 
 const App = () => {
   return (
     <div>
-      <UserList />
+      <UserListHuXn />
     </div>
   );
 };
