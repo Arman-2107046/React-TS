@@ -1,23 +1,15 @@
-
-import EventHandling from './components/Event Handling/EventHandling'
-
+import React from "react";
+import MyProvider from "./components/ContextApi/MyContext";
+import NewCounter from "./components/ContextApi/NewCounter";
 
 const App = () => {
   return (
     <div>
-      {/* <FocusInput/> */}
-    {/* <ContactForm/> */}
-
-    {/* <Focus/> */}
-
-    {/* <NewContactForm/>
-     */}
-
-     {/* <UpdatedContactForm/> */}
-
-     <EventHandling/>
+      <MyProvider>
+        <NewCounter />
+      </MyProvider>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
