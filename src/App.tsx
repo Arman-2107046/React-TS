@@ -1,9 +1,10 @@
-import MyComponent from "./components/UseEffect/MyComponent";
+
+import UserList from "./components/UseEffect/UserList";
 
 const App = () => {
   return (
     <div>
-      <MyComponent />
+      <UserList />
     </div>
   );
 };
